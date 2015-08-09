@@ -1,4 +1,4 @@
-var routes = {}
+let routes = {}
 
 routes.index = (req, res) => {
   res.send('hello')
