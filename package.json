@@ -1,0 +1,30 @@
+{
+  "name": "express-babel-starter",
+  "version": "1.0.0",
+  "description": "It's like 4chan and Instagram had a bady.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "build": "gulp babel"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aprilorange/express-babel-starter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aprilorange/express-babel-starter/issues"
+  },
+  "homepage": "https://github.com/aprilorange/express-babel-starter#readme",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "express": "^4.13.3",
+    "nunjucks": "^1.3.4"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.2.0"
+  }
+}
