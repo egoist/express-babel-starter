@@ -2,11 +2,11 @@ var gulp = require('gulp'),
   babel = require('gulp-babel')
 
 var paths = {
-  system: './src/system/*.js'
+  server: './src/server/*.js'
 }
 
 gulp.task('babel', function() {
-  return gulp.src(paths.system)
+  return gulp.src(paths.server)
     .pipe(babel())
-    .pipe(gulp.dest('./core'))
+    .pipe(gulp.dest('./server'))
 })
