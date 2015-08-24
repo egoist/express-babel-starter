@@ -1,6 +1,6 @@
 # app
-server/
-
+/server/
+!/src/server
 # Logs
 logs
 *.log
